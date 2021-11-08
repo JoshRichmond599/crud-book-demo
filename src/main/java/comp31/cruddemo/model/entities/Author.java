@@ -18,9 +18,9 @@ import lombok.Data;
 @Table(name="AUTHOR")
 public class Author {
 
-    @Id
+    @Id 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="AUTHOR_ID")
+    @Column(name="AUTHOR_ID") 
     private Integer authorId;
     
     @Column(name="FIRST_NAME")
